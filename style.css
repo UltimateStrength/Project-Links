@@ -89,3 +89,46 @@ a:link{
     color: #41300f;
     text-decoration: none
 }
+
+@media only screen and (max-width: 600px) {
+
+        .button{
+        width: 150px;
+        height: 30px;
+        font-size: 5px;
+        position: relative;
+
+    }
+
+        .othertext{
+            font-size: 8px;
+    }
+
+    .container{
+        padding: 0;
+        font-size: 4px;
+        text-align: center;
+        color: #41300f;
+        position:relative;
+        top: -180px;
+    }
+    .container1{
+        padding: 0px;
+        font-size: 5px;
+        position: relative;
+        top: -205px;
+        left: 2.5px;
+    }
+
+    .mark{
+        position: relative;
+        font-size: 7px;
+        color: #41300f;
+        top: -240px;
+        left: 8px;
+        text-align: center;
+        font-family: 'Mammoth Rush', sans-serif;
+        text-decoration: none
+    }
+
+}
